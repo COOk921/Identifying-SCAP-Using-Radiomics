@@ -22,4 +22,15 @@ It describes in detail the various storage locations of data set files
 #### Medical image feature extraction based on Pyradiomics
 Feature extraction using Pyradiomics requires downloading the toolkit from a third-party library https://github.com/AIM-Harvard/pyradiomics
 
-After the download is complete, you can refer to the official sample code, or use ours
+After the download is complete, you can refer to the official sample code, or use ours(pyradiomics/extract_feature.py). You need to replace the file address in the code with your own.
+
+
+#### Construction of clinical feature set, imaging feature set and mixed feature set
+After extracting the features, clinical features and image features can be combined
+
+#### Feature screening process
+Feature filtering was performed using three methods, see the document for details:feature-screening/
+
+#### All the rest
+Model building and interpretability analysis can refer to the code:model/notebook3c141729cf.ipynb
+
